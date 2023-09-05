@@ -1,0 +1,20 @@
+1. - Настроить/проверить SSH-ключ
+$ git config --global -l
+
+- git@github.com:OdrinaHelen/git_helen_30.git
+Клонировать репозиторий со своего гитхаба
+
+- Если репозиторий не свой, то предварительно Fork (кнопка на странице репозитория).
+
+2. - Зайти в локальный каталог (cd)
+- git init - Инициализация локального git репозитория
+- git add  - перевели файл в индексное пространство
+- git commit -m "комментарий" - сделать коммит
+- git remote add origin ssh://git@github.com/[username]/[repository-name].git - Добавление удаленного репозитория
+- git push [repository-name] main - отправить изменения на GitHub
+
+3. git pull
+
+4. git status - на какой я ветке
+git log - Просмотр изменений
+git remote -v  - показывает список удаленных репозиториев
